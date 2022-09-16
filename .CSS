@@ -1,0 +1,100 @@
+ *{
+    margin: 0; 
+    padding: 0;
+ }
+ 
+ .navbar ul{
+     display: flex;
+     list-style: no;
+     justify-content: right;
+     padding: 5px;
+     margin:10px ;
+ }
+ 
+ .navbar ul {
+   font-family: century;
+   font-size: 1.1rem;
+   font-weight: bold;
+ }
+ 
+ .navbar ul  a{
+     text-decoration: none;
+     padding: 8px;
+     transition: all.5 ease;
+     
+ }
+ 
+ .navbar ul a:hover{
+     background-color: gray;
+     box-shadow: 10px;;
+     border-radius: 20px;
+ }
+ 
+ body{
+     background-color:aliceblue;
+   
+ }
+ 
+ h1{
+     background-color:gray;
+     font-weight:bold;
+     border-radius: 50px;
+     justify-content: center;
+     transition: all;
+     margin: 70px;
+     padding: 10px;
+ }
+ 
+ p{
+     justify-content: center;
+     text-align: center;
+     text-decoration: solid;
+     font-family: century;
+     box-sizing: border-box;
+     font-weight:bold;
+ }
+ 
+ 
+ 
+ 
+ h3{
+     background-color: gray;
+     font-weight:bold;
+     border-radius: 50px;
+     justify-content: center;
+     transition: all;
+     margin: 70px;
+     padding: 10px;;
+ }
+ 
+ 
+ 
+ .gallery :hover{
+     cursor: pointer;
+     box-shadow: 5px;
+     background-color: gray;
+     font-weight: bold;
+ }
+ 
+ .gallery img{
+     width: 300px;
+     height: 200px;
+     margin: 10px;
+    
+ }
+ 
+ .gallery{
+     justify-content: space-around;
+     display:flex;
+     flex-wrap: wrap;
+     box-sizing:border-box;
+     align-items: center;
+ }
+
+.nav{
+    justify-content: space-around;
+     display:flex;
+     flex-wrap: wrap;
+     box-sizing:border-box;
+     align-items: center;
+}
